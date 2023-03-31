@@ -270,36 +270,7 @@
     AutoPrediction = sneakinup
     end)
     
-    local ESP = loadstring(game:HttpGet("https://pastebin.com/raw/L85CYGb8", true))()
 
-
-    Visuals:Toggle("Enabled", function(bool)
-        ESP.Enabled = bool
-    end)
-    
-    Visuals:Toggle("Tracers", function(er)
-        ESP.Tracers = er
-        end)
-    
-    
-    Visuals:Toggle("Names", function(be)
-            ESP.Names = be
-    end)
-    
-    
-    Visuals:Toggle("Boxes", function(vc)
-         ESP.Boxes = vc
-        end)
-
-        Visuals:Toggle("Chams", function()
-
-           end)
-
-
-        Visuals:Color("Colour", function(bool)
-            ESP.Color = bool
-          end)   
-  
 
           
 
